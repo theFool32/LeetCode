@@ -9,7 +9,6 @@ var subsetsWithDup = function(nums) {
   var map = {}
   var current = []
   var backtrack = function(n) {
-    debugger
     if (n === nums.length) {
       if (!map[current.toString()]) {
         map[current.toString()] = 1
